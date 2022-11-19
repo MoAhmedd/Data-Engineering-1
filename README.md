@@ -27,25 +27,25 @@ My data warehouse consists of 5 dimensions that are comprised of every field tha
 ## Data marts: 
 Our final step was creating data marts so we can have multiple views that answered our questions and provided valuable information to make key business decisions. 
 
-##### View one: Average delivery distance in kilometers. 
+## View one: Average delivery distance in kilometers. 
 This view helps us in understanding which store has the longest delivery distance and provides us information regarding the average distance of each store.
 
 <img width="476" alt="Average delivery distance by stores" src="https://user-images.githubusercontent.com/112099406/202851169-12bcb010-7a05-482b-abe1-cc0c5ca45d45.png">
 
-##### View two: Highest cancellation.
+## View two: Highest cancellation.
 The view illustrates the top 5 stores that have the highest number of cancellations. This is very important to understand the root cause of those cancellations and will benefit us in identification and rectification of the problem. 
 
 <img width="392" alt="Highest cancellations by store" src="https://user-images.githubusercontent.com/112099406/202851180-f8acc8ff-d0e5-4bb6-8c38-cc45c10105e2.png">
 
-##### View three: Monthly sales.
+## View three: Monthly sales.
 This view provides us with information regarding sales of all the months ordering them in descending order with respect to the total revenue generated.
 
 <img width="448" alt="Monthly sales" src="https://user-images.githubusercontent.com/112099406/202851190-8027b7f2-ba80-4b32-ba1f-12420202481e.png">
 
-##### View four: Month wise sales report categorized by segment. 
+## View four: Month wise sales report categorized by segment. 
 A stored procedure was created for this view so we can input our desired month call it accordingly. It contains variables like date of sale, store segment, unit price, number of completed orders and cumulative sale. 
 
 <img width="751" alt="Month wise sales report by segment" src="https://user-images.githubusercontent.com/112099406/202851196-5a0c25a5-789c-4d4c-b9eb-7272b62ad1b5.png">
 
-These views provide a better understanding of the dataset and will assist in making key decisions regarding the business while understanding the shortcomings and building a strategy to rectify them. 
+##### These views provide a better understanding of the dataset and will assist in making key decisions regarding the business while understanding the shortcomings and building a strategy to rectify them. 
 
