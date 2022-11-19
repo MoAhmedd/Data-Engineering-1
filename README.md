@@ -14,10 +14,12 @@ The data contains seven different tables: Orders, Payments, Deliveries, Drivers,
 
 <img width="986" alt="EER Diagram" src="https://user-images.githubusercontent.com/112099406/202851106-a16f9c06-6fb8-46f1-a44d-e5d87560b06a.png">
 
-## Analytical Layer: 
-As we move onto the next step, an analytical layer was created which contained the Data Warehouse which was named ‘Dwarehousing_orders’. The ETL pipeline below provides a better understanding of the analytical process from start to end. 
+## Analytics: 
 
 ![ETL](https://user-images.githubusercontent.com/112099406/202851116-264295e3-8c68-4282-acd1-4e8b6f59b515.png)
+
+## Analytical Layer: 
+As we move onto the next step, an analytical layer was created which contained the Data Warehouse which was named ‘Dwarehousing_orders’. The ETL pipeline below provides a better understanding of the analytical process from start to end. 
 
 <img width="1251" alt="Tables" src="https://user-images.githubusercontent.com/112099406/202851122-8916cc21-7884-49ed-8257-4656413b91bc.png">
 
